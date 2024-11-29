@@ -1,0 +1,50 @@
+Enunciado do Projeto
+O Sistema de Gerenciamento de Academia é um banco de dados relacional projetado para gerenciar as atividades e operações realizadas em uma academia. O sistema oferece recursos para o gerenciamento de alunos, professores, planos, treinos, aulas e pagamentos, proporcionando uma visão centralizada das informações essenciais da academia.
+
+Principais Funcionalidades:
+Gerenciar informações de alunos, incluindo dados pessoais e histórico de cadastro.
+Registrar dados de professores, suas especialidades e contatos.
+Oferecer planos com diferentes características, durações e preços.
+Controlar treinos personalizados, com datas de início e término para cada aluno.
+Organizar aulas, incluindo horários, tipo e professores responsáveis.
+Registrar pagamentos, incluindo valores, formas de pagamento e data.
+
+
+Estrutura do Banco de Dados
+Tabelas e suas funções:
+Alunos
+
+Armazena informações pessoais dos alunos e data de cadastro.
+Campos principais:
+id_Aluno: Identificador único.
+nome, data_nascimento, genero, telefone, email, data_cadastro.
+Professores
+
+Registra os professores e suas especialidades.
+Campos principais:
+id_Professor: Identificador único.
+nome, especialidade, telefone, email.
+Planos
+
+Define os tipos de planos oferecidos pela academia.
+Campos principais:
+id_Plano: Identificador único.
+tipo_plano, descricao, preco, duracao_meses.
+Treinos
+
+Registra treinos personalizados para os alunos.
+Campos principais:
+id_Treino: Identificador único.
+id_Aluno, descricao, data_inicio, data_fim.
+Aulas
+
+Gerencia as aulas oferecidas pela academia.
+Campos principais:
+id_Aula: Identificador único.
+tipo_aula, id_professor, horario, capacidade.
+Pagamentos
+
+Controla os pagamentos realizados pelos alunos.
+Campos principais:
+id_Pagamento: Identificador único.
+id_Aluno, id_Plano, data_pagamento, valor_pago, forma_pagamento.
