@@ -1,0 +1,25 @@
+# Arquivos de logs e temporários
+*.log
+*.tmp
+
+# Diretórios do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações de IDE
+.vscode/
+.idea/
+
+# Backups de arquivos SQL
+*.bak
+
+# Arquivos MySQL temporários
+*.frm
+*.ibd
+*.MYD
+*.MYI
+*.err
+
+# Outros arquivos desnecessários
+*.swp
+*.lock
